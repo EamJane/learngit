@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="334" started-at="2018-04-04T06:17:39Z" finished-at="2018-04-04T06:17:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="334" started-at="2018-04-04T06:17:39Z" finished-at="2018-04-04T06:17:39Z">
+      <class name="com.mayan.TestWeather">
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.mayan.TestWeather@2a3046da]" name="getWeather" duration-ms="234" started-at="2018-04-04T14:17:39Z" finished-at="2018-04-04T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[北京]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="getWeatherN(java.lang.String)[pri:0, instance:com.mayan.TestWeather@2a3046da]" name="getWeatherN" duration-ms="83" started-at="2018-04-04T14:17:39Z" finished-at="2018-04-04T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[南京]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherN -->
+      </class> <!-- com.mayan.TestWeather -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
